@@ -141,7 +141,7 @@ def start_end(start,end):
         stats_dict["avg_temp"] = round(avg,2)
         all_stats.append(stats_dict)
         return jsonify(all_stats)
-    return(start":"end)
+
                 
    
 
